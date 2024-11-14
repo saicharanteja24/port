@@ -51,7 +51,16 @@ header{
     body {
         padding-top: 100px;
     }
+       .social-links {
+        flex-direction: column; 
+        gap: 15px; 
+    }
+
+    .social-links a {
+        font-size: 24px;
+    }
 }
+
 
 
 
