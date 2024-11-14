@@ -51,13 +51,15 @@ header{
     body {
         padding-top: 100px;
     }
-       .social-links {
+       .button-box {
         flex-direction: column; 
-        gap: 15px; 
+        align-items: center;
     }
 
-    .social-links a {
-        font-size: 24px;
+    .button a {
+        margin: 10px 0; 
+        width: 100%; 
+        text-align: center;
     }
 }
 
