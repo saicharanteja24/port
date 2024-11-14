@@ -28,6 +28,40 @@ header{
     
 }
 
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; 
+        align-items: center;
+        padding: 10px; 
+    }
+
+    .ppic {
+        margin-right: 0; 
+        margin-bottom: 20px; 
+        margin-top: 50px;
+    }
+
+    #h2 h1 {
+        font-size: 28px; 
+    }
+
+    #h2 h3 {
+        font-size: 20px; 
+    }
+
+    body {
+        padding-top: 100px;
+    }  
+    .button-box {
+        flex-direction: column; 
+        align-items: center;
+    }  
+       
+    .button a {
+        margin: 10px 0; 
+        width: 100%; 
+        text-align: center;
+}
 
 
 #dh1 h1{
@@ -211,40 +245,6 @@ border:2px solid #333;
     }
 }
 
-@media (max-width: 768px) {
-    .content {
-        flex-direction: column; 
-        align-items: center;
-        padding: 10px; 
-    }
-
-    .ppic {
-        margin-right: 0; 
-        margin-bottom: 20px; 
-        margin-top: 50px;
-    }
-
-    #h2 h1 {
-        font-size: 28px; 
-    }
-
-    #h2 h3 {
-        font-size: 20px; 
-    }
-
-    body {
-        padding-top: 100px;
-    }  
-    .button-box {
-        flex-direction: column; 
-        align-items: center;
-    }  
-       
-    .button a {
-        margin: 10px 0; 
-        width: 100%; 
-        text-align: center;
-}
 
 
 
